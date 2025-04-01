@@ -12,6 +12,15 @@ Este módulo permite a integração automática entre o WHMCS (Web Host Manager 
 - Conta ativa no Zablu
 - Credenciais de API do Zablu (URL da API e Chave da API)
 
+## Como Obter o Token de API
+
+1. Acesse sua conta no Zablu
+2. Clique no ícone do usuário (imagem de perfil) no canto superior direito
+3. Selecione "Configurações"
+4. Navegue até a aba "Tokens de API"
+5. Clique em "Criar Token"
+6. Copie o token gerado e cole-o no campo "Chave da API" nas configurações do módulo
+
 ## Instalação
 
 1. Faça o download do módulo
@@ -25,7 +34,7 @@ Este módulo permite a integração automática entre o WHMCS (Web Host Manager 
 1. No painel administrativo do WHMCS, vá para Configurações > Módulos de Addon > Zablu
 2. Configure as seguintes opções:
    - URL da API: URL base da API do Zablu (ex: https://app.zablu.com.br/api/v1)
-   - Chave da API: Chave de acesso da API do Zablu
+   - Chave da API: Cole o token de API obtido seguindo os passos acima
 
 ## Funcionalidades
 
