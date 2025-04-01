@@ -1,0 +1,10 @@
+{
+    "name": "Zablu",
+    "description": "Integração com Zablu",
+    "author": "josealissonbr",
+    "version": "1.0",
+    "language": "english",
+    "requires": {
+        "whmcs": ">=8.0"
+    }
+}
